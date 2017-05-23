@@ -11,7 +11,8 @@ public class ThreadMain {
 			Thread2 t2 = new Thread2();
 			t2.start();
 			t1.start();
-			
+			t2.close();
+			t2.close();
 
 		
 		
